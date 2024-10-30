@@ -25,7 +25,7 @@ public class Test {
 	
 	@Test
 	public void testRaiz1() throws Exception {
-		assertEquals(5.0, this.raiz.raiz(3, 1, -2);
+		assertEquals((0.667, -1), this.raiz.raiz(3, 1, -2);
 		assertThrows(Exception.class, () -> this.raiz.raiz(0, 1, 2));
 		assertThrows(Exception.class, () -> this.raiz.raiz(5, 1, 2));
 		
