@@ -5,9 +5,9 @@ import logica.Raiz;
 public class Principal {
 	public static void main(String[] args) throws Exception {
 		Raiz r = new Raiz();
-		int a = 5;
+		int a = 3;
 		int b = 1;
-		int c = 3;
+		int c = -2;
 		long t1;
 		long t2;
 		
@@ -16,7 +16,8 @@ public class Principal {
 		t2 = System.currentTimeMillis();
 		System.out.println("El teimpo de ejecucion es: ");
 		System.out.println(t2-t1);
-
+		
+	
 		
 	}
 
