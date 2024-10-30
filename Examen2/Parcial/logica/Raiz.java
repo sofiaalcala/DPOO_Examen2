@@ -1,6 +1,6 @@
-package Parcial;
+package logica;
 
-public class Parcial {
+public class Raiz {
 	
 	public static Double[] raiz(int a, int b, int c) throws Exception {
 		if (a == 0) {
